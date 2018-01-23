@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-service-hive" />
+        <module name="cloud-service-mysql" />
+        <module name="cloud-service-sqlserver" />
+        <module name="register-centre" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-service" target="1.8" />
+      <module name="cloud-service-hive" target="1.8" />
+      <module name="cloud-service-mysql" target="1.8" />
+      <module name="cloud-service-sqlserver" target="1.8" />
+      <module name="register-centre" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

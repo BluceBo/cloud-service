@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-service.iml" filepath="$PROJECT_DIR$/cloud-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-hive/cloud-service-hive.iml" filepath="$PROJECT_DIR$/cloud-service-hive/cloud-service-hive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-mysql/cloud-service-mysql.iml" filepath="$PROJECT_DIR$/cloud-service-mysql/cloud-service-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-sqlserver/cloud-service-sqlserver.iml" filepath="$PROJECT_DIR$/cloud-service-sqlserver/cloud-service-sqlserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register-centre/register-centre.iml" filepath="$PROJECT_DIR$/register-centre/register-centre.iml" />
+    </modules>
+  </component>
+</project>

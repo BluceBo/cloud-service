@@ -1,0 +1,27 @@
+server:
+  port: 8081
+  context-path: /cloud-service-sqlserver
+debug: true
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: dbslave.sellercube.com,3533
+    username: tmp_DealHisData
+    password: W9q#n6Q$h!UxZsfUJW1(
+    type: com.alibaba.druid.pool.DruidDataSource
+  mvc:
+      formcontent:
+        putfilter:
+          enabled: true
+  http:
+      encoding:
+        charset: UTF-8
+  application:
+    name: cloud-service-sqlserver
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/register-centre/eureka/
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mapper/*.xml

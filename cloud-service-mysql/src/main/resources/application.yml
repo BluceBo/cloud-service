@@ -1,0 +1,20 @@
+server:
+  port: 8082
+  context-path: /cloud-service-mysql
+debug: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.183:3306/erp_fms_debug?useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  application:
+    name: cloud-service-mysql
+eureka:
+  client:
+    serviceUrl:
+          defaultZone: http://localhost:1111/register-centre/eureka/
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mapper/*.xml
