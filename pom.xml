@@ -21,6 +21,7 @@
         <module>register-centre</module>
         <module>cloud-service-hive</module>
         <module>cloud-service-mysql</module>
+        <module>service-hi</module>
     </modules>
     <!-- 版本管理-->
     <properties>
@@ -37,6 +38,7 @@
         <hadoop-mapred.version>0.22.0</hadoop-mapred.version>
         <libfb303.version>0.9.3</libfb303.version>
         <libthrift.version>0.9.3</libthrift.version>
+        <spring-cloud.version>Dalston.SR4</spring-cloud.version>
         <!-- Plugin versions -->
         <java.version>1.8</java.version>
     </properties>
@@ -143,7 +145,13 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore</artifactId>
             </dependency>
-
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>

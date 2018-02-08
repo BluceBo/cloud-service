@@ -1,4 +1,4 @@
-package com.banggood;
+package com.banggood.cloud;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
