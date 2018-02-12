@@ -9,6 +9,7 @@
         <module name="cloud-service-hive" />
         <module name="cloud-service-mysql" />
         <module name="cloud-service-sqlserver" />
+        <module name="config-server" />
         <module name="register-centre" />
         <module name="service-feign" />
         <module name="service-hi" />
@@ -21,6 +22,7 @@
       <module name="cloud-service-hive" target="1.8" />
       <module name="cloud-service-mysql" target="1.8" />
       <module name="cloud-service-sqlserver" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="register-centre" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
