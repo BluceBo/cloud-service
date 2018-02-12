@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-service-hive/cloud-service-hive.iml" filepath="$PROJECT_DIR$/cloud-service-hive/cloud-service-hive.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-mysql/cloud-service-mysql.iml" filepath="$PROJECT_DIR$/cloud-service-mysql/cloud-service-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-sqlserver/cloud-service-sqlserver.iml" filepath="$PROJECT_DIR$/cloud-service-sqlserver/cloud-service-sqlserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/register-centre/register-centre.iml" filepath="$PROJECT_DIR$/register-centre/register-centre.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-hi/service-hi.iml" filepath="$PROJECT_DIR$/service-hi/service-hi.iml" />
